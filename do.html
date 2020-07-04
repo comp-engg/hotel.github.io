@@ -1,0 +1,225 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+	<meta name="viewport" content="width= max-width" initial-scale="1.0">
+			<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<link rel="icon" type="image/png" href="logo.jpg">
+		<title>Sunrise Hotel
+		 </title>
+
+		
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="https://kit.fontawesome.com/8d2166910e.js" crossorigin="anonymous"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+	<script >
+		$(document).ready(function(){
+			$("#case").click(function(){
+				$("#cases").slideToggle("slow");
+				
+			});
+		});
+	</script>
+	<script >
+		$(document).ready(function(){
+			$("#flip").click(function(){
+				$("#pannel").slideToggle("slow");
+				
+			});
+		});
+	</script>
+	<script >
+		$(document).ready(function(){
+			$("#flips").click(function(){
+				$("#pannels").slideToggle("slow");
+				
+			});
+		});
+	</script>
+	<script>
+function myFunction() {
+  location.replace("forms.html")
+}
+</script>
+	<script>
+function de() {
+  location.replace("photo.html")
+}
+</script>
+
+	</head>
+	<body>	
+		<header>
+				<div class="e">
+		<nav>
+		<a href="#"><i class="fa fa-home" style="font-size:24px"></i></a> |
+		<a href="#AboutMe">About </a> |
+		<a href="#Gallery" onclick="de()">Gallery </a> |
+		<a href="#Reservation" onclick="myFunction()">Reservation </a> |
+		<a href="#Contact">Contact Us </a> 
+				</nav>
+	</div>		
+			<img src="pic17.jpg" class="switch" width="100%" >
+			<img src="hm.jpg" class="switch" width="100%" >
+			
+			<script type="text/javascript">
+			var myIndex = 0;
+				carousel();
+
+				function carousel() {
+				  var i;
+				  var x = document.getElementsByClassName("switch");
+				  for (i = 0; i < x.length; i++) {
+				    x[i].style.display = "none";  
+				  }
+				  myIndex++;
+				  if (myIndex > x.length) {myIndex = 1}    
+				  x[myIndex-1].style.display = "block";  
+				  setTimeout(carousel, 2600);
+				}
+           </script>
+           <div class="h">
+           	 
+           <form >
+           			CHECK-IN & CHECK-OUT : <input type="Date" name="Date" required> -
+           								   <input type="Date" name="Date" required>
+           			Rooms & Guest: <input type="Number" name="Number" required>,
+           							 <input type="Number" name="Number" required> 
+           							 
+           			<button id="nmm"> Check Avability</button>
+           		</div>
+           </form>
+			</header>
+		<h1>ABOUT SUNRISE HOTELS</h1>
+		<div class="para"id="AboutMe">
+		<p>
+				With the Namaste as the enduring symbol of its brand experience, Sunrise Hotels is one of India’s leading luxury hotel chains. It operates under four distinct brands with more than 100 hotels in over 70 destinations in the country. Integrating India’s fine tradition of hospitality with globally benchmarked services, the luxury hotels reflect the culture and ethos of each destination.<br>With ‘Responsible Luxury as its guiding premise, Sunrise Luxury Collection hotels combine grandeur with intimacy to operate according to the highest principles of environmental stewardship. The brand features opulent accommodations, state-of-the-art business facilities, renowned signature cuisine and award-winning wellness experiences.<br>The 14 Sunrise Luxury Collection properties are: Sunrise in New Delhi, Sunrise Mughal in Agra, Sunrise Windsor and Sunrise Gardenia in Bengaluru, Sunrise Grand Central and Sunrise Maratha in Mumbai, Sunrise Grand Chola in Chennai, Sunrise Rajputana in Jaipur, Sunrise Kakatiya and Sunrise Kohenur in Hyderabad, Sunrise Sonar & Sunrise Royal Bengal in Kolkata, Sunrise Grand Goa Resort and Spa in Goa and the Sunrise Grand Bharat in the New Delhi Capital Region.<div id="case">
+					<button>Know More</button>
+				</div></p>
+				<div id="cases">
+				<h2 style="border: 3px solid gray; background-color: gray;"> SUNRISE ONE PRIVILEGES</h2>
+				<ul>
+					<li>Airport facilitation on arrival / departure</li>
+					<li>Personalised check-in & check-out</li>
+					<li>Welcome drink on arrival</li>
+					<li>Buffet breakfast at the Coffee Shop</li>
+					<li>Use of 24-hour boardrooms for up to three hours, once during the stay (subject to availability)</li>
+					<li>Luxury hours daily with cocktails & hors d’oeuvres between 1800 to 2000 hrs.</li>
+					<li>Access to the fitness centre and swimming pool.</li>
+					<li>Coffee/tea maker ensemble in the room</li>
+					<li>Two bottles of 500 ml packaged mineral water, replenished daily</li>
+					<li>High Speed Internet Access / WiFi services is on a chargeable basis</li>
+				</ul>
+				</div>
+				<div>
+					<table>
+						<tr>
+							<td>
+					<img src="room2.jpg" width="70%">
+					<div class="ser">
+					<h3 class="ser">Standard Room</h3>
+
+					<p>355ft|2 Twin or 1 King | 3 Adults </p>
+					<i class="fas fa-utensils" ></i> |
+					<i class="fa fa-snowflake" ></i> |
+					<i class="fa fa-wifi" ></i> |
+					<i class="fa fa-tv"></i> | 
+					<i class="fas fa-coffee" ></i> |
+					<i class="fa fa-bath" ></i> |
+				
+				</td>
+
+					<td>
+						<img src="rooms.jpg" width="70%" >
+						<h3 class="ser">Buisness Class Room</h3>
+						<p> 409ft|2 Twin or 1 King | 3 Adults</p>
+							<i class="fas fa-utensils" ></i> |
+							<i class="fa fa-snowflake" ></i> |
+					<i class="fa fa-wifi" ></i> |
+					<i class="fa fa-tv"></i> |
+					<i class="fas fa-coffee" ></i> |
+					<i class="fa fa-newspaper" ></i>  | 
+					<i class="fa fa-bath" style="padding: 2px" ></i> |
+					</td>
+					<td>
+						<img src="room3.jpg" width="95%" >
+						<h3 class="ser">Suit  Room</h3>
+						<p> 510ft|3 Twin or 1 King | 4 Adults</p>
+							<i class="fas fa-utensils" ></i> |
+							<i class="fa fa-snowflake" ></i> |
+					<i class="fa fa-wifi" ></i> |
+					<i class="fa fa-tv"></i> |
+					<i class="fas fa-coffee" ></i> |
+				<i class="fa fa-refrigerator"></i>
+
+
+					<i class="fa fa-newspaper" ></i>  | 
+					<i class="fa fa-shower"></i> |
+					<i class="fa fa-bath" style="padding: 2px" ></i> |
+					</td>
+					</tr>
+					</div>
+				</div>
+				</table>
+				<div>
+					<div class="we">
+						<div class="div1" >
+							<h2> RESPONSIBLE LUXURY</h2> <br> <br>
+						<input type="submit" name="Explore" value="Explore"></p> </div>
+						<br>
+						<div class="div2">
+							<h2 > CLUB SUNRISE</h2>
+						<p  >  A world of unique benefits,premium pfferings<br> and enviable previleges.<br> <br>
+						<input type="submit" name="Explore" value="Explore" > </p> </div>
+
+					<div class="div3" >
+							<h2> GIFTING</h2> <br> <br>
+						<input type="submit" name="Explore" value="Explore"></p> </div>
+						
+				</div>
+				<div class="sdf"></div>
+         	<footer>
+		<div class="df" id="Contact">
+			
+			<h2>Destinations</h2>
+			<p>
+
+New Delhi & Gurgaon Hotels |Goa Hotels & Resorts |Mumbai Hotels |Chennai Hotels |Bengaluru Hotels |Hyderabad Hotels |Kolkata Hotels |Jaipur Hotels |Agra Hotels | Amritsar Hotels | Vadodara Hotels | Aurangabad Hotels | Visakhapatnam Hotels | Panchkula - Chandigarh Hotels |Jodhpur Hotels |Khimsar Hotels |Mamallapuram Hotels |Mussoorie Hotels | Coimbatore Hotels |Pahalgam Hotels |Lucknow Hotels </p>
+<h2>Contact us</h2>
+<div class="style">
+
+<p style="padding: 2px;"> <b>Guest Custome Number:</b> <Br>
+Call our toll-free number <br>
+1-800-102-2333; 1-800-419-6444<br>
+Direct number (Valid for guest calling from outside India) <Br>
++91124 4816900; +91124 6718000<Br>
+ Email: reservations@sunrisehotels.in</p>
+ 
+ <br>
+ 
+<p class="sd" style="padding: 3px">	<b> Marketing Office:</b><br>
+	605, Laxmideep Building,<br>
+Laxmi Nagar District Center,<br>
+Delhi – 110 092<br>
+
+011-42384490, 22501535, 22501536<br>
+99108 92226, 99714 91414<br>
+
+surise@moonlighthotels.com<br></p>
+
+<br>
+<p> <b>Connect us </b>  <Br>
+<a href="https://www.facebook.com/"><i class="fab fa-facebook"> </i>  |</a> 
+<a href="https://web.whatsapp.com/"><i class="fab fa-whatsapp"></i> | </a> 
+<a href="https://twitter.com/i/flow/signup"><i class="fab fa-twitter"></i> |</a> 
+<a href="https://www.instagram.com/"> <i class="fab fa-instagram"></i> |</a>
+</p>
+
+</div>
+
+	</footer>
+				
+   </body>
+</html>
